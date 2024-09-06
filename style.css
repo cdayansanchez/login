@@ -25,7 +25,20 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     border: 3px solid #00ffff;
-    box-shadow: 0 0 50px 0 #00a6bc;
+}
+
+
+.wel_text {
+    font-size: 40px;
+    margin-top: -50px;
+    line-height: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner {
@@ -42,19 +55,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-}
-
-.wel_text {
-    font-size: 40px;
-    margin-top: -50px;
-    line-height: 50px;
-}
-
-.form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .title {
